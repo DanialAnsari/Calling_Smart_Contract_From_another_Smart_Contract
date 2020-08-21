@@ -1,0 +1,14 @@
+{
+  "contracts": {},
+  "solidityLibs": {},
+  "proxies": {
+    "call_contract/D": [
+      {
+        "address": "0x44DcFaA800307b7561671ada6f4053fb1f4C8871",
+        "kind": "NonProxy",
+        "bytecodeHash": "c3f0c09a5d27534076392a45fb080b419eed3942dd9d25515c220e03660fecd3"
+      }
+    ]
+  },
+  "manifestVersion": "2.2"
+}

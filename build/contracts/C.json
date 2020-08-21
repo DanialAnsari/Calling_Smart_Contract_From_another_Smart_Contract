@@ -1,0 +1,165 @@
+{
+  "fileName": "C.sol",
+  "contractName": "C",
+  "source": "pragma solidity ^0.6.2;\n\ncontract C{\n\nfunction getMessage() public view returns(string memory){\n   return \"Contract has been deployed Successfully\";\n}\n\n}",
+  "sourcePath": "contracts/C.sol",
+  "sourceMap": "25:128:0:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "25:128:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;38:112;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;80:13;99:48;;;;;;;;;;;;;;;;;;;38:112;:::o",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "getMessage",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "ast": {
+    "absolutePath": "contracts/C.sol",
+    "exportedSymbols": {
+      "C": [
+        10
+      ]
+    },
+    "id": 11,
+    "license": null,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.6",
+          ".2"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 10,
+        "linearizedBaseContracts": [
+          10
+        ],
+        "name": "C",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 8,
+              "nodeType": "Block",
+              "src": "94:56:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "hexValue": "436f6e747261637420686173206265656e206465706c6f796564205375636365737366756c6c79",
+                    "id": 6,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "string",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "106:41:0",
+                    "subdenomination": null,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_stringliteral_958ad6562fa570276b4c1e09237ffe9da3731cc0c807e94b8c423b1349c6f70f",
+                      "typeString": "literal_string \"Contract has been deployed Successfully\""
+                    },
+                    "value": "Contract has been deployed Successfully"
+                  },
+                  "functionReturnParameters": 5,
+                  "id": 7,
+                  "nodeType": "Return",
+                  "src": "99:48:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "functionSelector": "ce6d41de",
+            "id": 9,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getMessage",
+            "nodeType": "FunctionDefinition",
+            "overrides": null,
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "57:2:0"
+            },
+            "returnParameters": {
+              "id": 5,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "overrides": null,
+                  "scope": 9,
+                  "src": "80:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 3,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "80:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "79:15:0"
+            },
+            "scope": 10,
+            "src": "38:112:0",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 11,
+        "src": "25:128:0"
+      }
+    ],
+    "src": "0:153:0"
+  },
+  "bytecode": "0x608060405234801561001057600080fd5b50610128806100206000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063ce6d41de14602d575b600080fd5b603360ab565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101560715780820151818401526020810190506058565b50505050905090810190601f168015609d5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60606040518060600160405280602781526020016100cc6027913990509056fe436f6e747261637420686173206265656e206465706c6f796564205375636365737366756c6c79a2646970667358221220cc823b4cd06464ff1d2bfdb5c14d7ae5146dd0e50b770e1fd307c8e1d15bd7e964736f6c634300060c0033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063ce6d41de14602d575b600080fd5b603360ab565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101560715780820151818401526020810190506058565b50505050905090810190601f168015609d5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60606040518060600160405280602781526020016100cc6027913990509056fe436f6e747261637420686173206265656e206465706c6f796564205375636365737366756c6c79a2646970667358221220cc823b4cd06464ff1d2bfdb5c14d7ae5146dd0e50b770e1fd307c8e1d15bd7e964736f6c634300060c0033",
+  "compiler": {
+    "name": "solc",
+    "version": "0.6.12+commit.27d51765.Emscripten.clang",
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "evmVersion": "petersburg"
+  }
+}
